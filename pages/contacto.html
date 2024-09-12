@@ -60,78 +60,64 @@
   <main>
     <section class="tituloseccion text-center">
       <h4>CONTACTO Y CONSULTAS</h4>
-    </section>
+    
 
-    <section class="text-center"> 
-      <label for="#">CONTACTO y RESERVA DE DISCOS</label> 
-         
-      <form action="#" method="post" enctype="text/plain">
-
+    <form action="#" method="post" enctype="text/plain">
+      <div class="card container-fluid contacto"> 
+        <label for="#">CONTACTO y RESERVA DE DISCOS</label> 
         <label for="nombreyapellido">Nombre y apellido</label>
         <input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Nombre y apellido">
         <label for="mail">Dejanos tu Email</label>
         <input type="email" name="mail" id="mail" placeholder=" Dejanos tu Email">
       </div>      
 
-        <div>
-          <label for="#">DETALLANOS TU CONSULTA Y TE CONTESTAREMOS A LA BREVEDAD</label>
-        </div>
-
-        <div>
-          <textarea name="mensaje" placeholder="Escribinos tu mensaje"></textarea>
-        </div>
-             
-        <div>
-          <label for="#">COORDINAR RETIRO POR LOCAL O POR ENVÍO</label>
+      <div class="card container-fluid contacto">
+        <label for="#">DETALLANOS TU CONSULTA Y TE CONTESTAREMOS A LA BREVEDAD</label>
+        <textarea name="mensaje" placeholder="Escribinos tu mensaje"></textarea>
+      </div>  
             
-            <div>
-              <label for="retiroporlocal">Retiro por local</label>
-              <input type="radio" name="retiroporlocal">
-            </div>
+      <div class="card container-fluid contacto">    
+        <label for="#">COORDINAR RETIRO POR LOCAL O POR ENVÍO</label>
+        <label for="retiroporlocal">Retiro por local</label>
+        <input type="radio" name="retiroporlocal">
+        <label for="coordinoenvio">Coordino Envio</label>
+        <input type="radio" name="coordinoenvio">
+      </div>        
 
-          <div>
-              <label for="coordinoenvio">Coordino Envio</label>
-              <input type="radio" name="coordinoenvio">
-          </div>
+      <div class="card container-fluid contacto">
+        <label for="#">CONDICION DEL DISCO</label>
+        <label for="disconuevo">Disco nuevo</label>
+        <input type="checkbox" name="disconuevo" id="disconuevo" value="nuevo">
+        <label for="discousado">Disco usado</label>
+        <input type="checkbox" name="" id="" value="usado">
+      </div>
 
-        <div>
-          <label for="#">CONDICION DEL DISCO</label>
-        </div>
-        
-        <div>
-          <label for="disconuevo">Disco nuevo</label>
-          <input type="checkbox" name="disconuevo" id="disconuevo" value="nuevo">
-          <label for="discousado">Disco usado</label>
-          <input type="checkbox" name="" id="" value="usado">
-        </div>
+      <div class="card container-fluid contacto">
+      <label for="#">DIAS PARA RECIBIR TU PEDIDO</label>
 
-        <div>
-          <label for="#">DIAS PARA RECIBIR TU PEDIDO</label>
-        </div>
+      <select name="dia">
+        <label for="l">Lunes</label>
+        <option value="l">Lunes</option>
 
-        <select name="dia">
+        <label for="m">Martes</label>
+        <option value="m">Martes</option>
 
-          <label for="l">Lunes</label>
-          <option value="l">Lunes</option>
-
-          <label for="m">Martes</label>
-          <option value="m">Martes</option>
-
-          <label for="mr">Miercoles</label>
-          <option value="mr">Miercoles</option>
+        <label for="mr">Miercoles</label>
+        <option value="mr">Miercoles</option>
                 
-          <label for="j">Jueves</label>
-          <option value="j">Jueves</option>
+        <label for="j">Jueves</label>
+        <option value="j">Jueves</option>
 
-          <label for="v">Viernes</label>
-          <option value="v">Viernes</option>
-        </select>
+        <label for="v">Viernes</label>
+        <option value="v">Viernes</option>
+      </select>
+      </div>
 
-        <div>
-          <input type="submit" value="Enviar">
-          <input type="reset" value="Resetear">
-        </div>  
-      </form>
+      <div class="card container-fluid contacto">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+      </div>  
+    </form>
     </section>
 
     <section class="text-center">
