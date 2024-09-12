@@ -32,6 +32,7 @@
   overflow: hidden;
   background-size: cover;
   background-position: center center;
+  margin: 20px;
 }
 
 .textos {
@@ -39,6 +40,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.tituloseccion, .pepomap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: cover;
 }
 
 .banner {
@@ -78,10 +86,12 @@
   margin: 20px;
 }
 
-.contacto {
-  margin: 20px;
+/*.contacto{
+    margin: 20px;
+
 }
 
+*/
 body {
   background: black;
   color: white;
@@ -92,6 +102,7 @@ header {
   background-color: gold;
   font-family: "New Amsterdam", sans-serif;
   color: black;
+  text-align: center;
 }
 header nav {
   background-color: red;
@@ -106,6 +117,23 @@ h4 {
   background-color: gold;
   font-family: "New Amsterdam", sans-serif;
   color: black;
+  text-align: center;
+}
+
+h6 {
+  background-color: red;
+  font-family: "New Amsterdam", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.tapadisco {
+  display: flex;
+  margin: 0%;
+}
+
+.fotosnuevosingresos{
+  margin: 0%;
 }
 
 /*# sourceMappingURL=styles.css.map */
